@@ -1,0 +1,51 @@
+{
+    "window.zoomLevel": 2,
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.fontSize": 11.5,
+    "explorer.confirmDragAndDrop": false,
+    "editor.rulers": [80],
+    "workbench.colorCustomizations": {
+    },
+    "editor.minimap.enabled": false,
+    "remote.onstartup": true,
+    "files.autoSave": "off",
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "files.exclude": {
+      "**/.git": false,
+      "**/.git: false": true
+    },
+    "files.associations": {
+      "*.html": "html"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "terminal.integrated.shell.osx": "zsh",
+    "search.useReplacePreview": false,
+    "files.trimTrailingWhitespace": true,
+    "code-runner.showExecutionMessage": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
+    "php.validate.executablePath": "",
+    "editor.fontLigatures": null,
+    "vim.insertModeKeyBindings": [
+      {
+          "before": ["j", "j"],
+          "after": ["<Esc>"]
+      }
+    ],
+    "vim.cursorStylePerMode.insert": "block-outline",
+    "vim.insertModeKeyBindingsNonRecursive": [
+
+    ],
+    "vim.digraphs": {
+
+    },
+    "explorer.compactFolders": false,
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
