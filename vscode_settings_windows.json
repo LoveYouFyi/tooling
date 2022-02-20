@@ -1,0 +1,86 @@
+{
+  "code-runner.showExecutionMessage": false,
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  "editor.cursorBlinking": "solid",
+  "editor.cursorStyle": "block",
+  "editor.detectIndentation": false,
+  "editor.fontLigatures": false,
+  "editor.formatOnSave": true,
+  "editor.fontSize": 11.5,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*.html": "html"
+  },
+  "files.autoSave": "off",
+  "files.exclude": {
+    "**/.git": false,
+    "**/.git: false": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "jest.autoRun": { "watch": false, "onSave": "", "onStartup": [] },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  "remote.onstartup": true,
+  "search.useReplacePreview": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.shell.osx": "zsh",
+  "terminal.integrated.tabs.enabled": false,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "vim.cursorStylePerMode.insert": "block-outline",
+  "vim.digraphs": {},
+  "vim.handleKeys": {
+    "<C-f>": false,
+    "<C-h>": false,
+    "<C-n>": false
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.insertModeKeyBindingsNonRecursive": [],
+  "window.zoomLevel": 2,
+  "workbench.editor.labelFormat": "short",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.colorCustomizations": {},
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "JavaScript Debug Terminal": {
+      "extensionIdentifier": "ms-vscode.js-debug",
+      "icon": "debug",
+      "id": "extension.js-debug.debugTerminal",
+      "title": "JavaScript Debug Terminal"
+    }
+  }
+}
